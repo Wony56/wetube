@@ -1,0 +1,28 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackMonkey56/wetube.git"
+  },
+  "author": "Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlackMonkey56/wetube/issues"
+  },
+  "homepage": "https://github.com/BlackMonkey56/wetube#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
